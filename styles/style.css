@@ -264,10 +264,13 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.causal-shoes-1, .causal-shoes-2,.causal-shoes-3{
+.causal-shoes-1, .causal-shoes-2,.causal-shoes-3,.formal-shoes-1, .formal-shoes-2,.formal-shoes-3{
     width: 90%;
     height: 90%;
     border:none;
     margin: 0 auto;
+}
+.formal-shoes-1, .formal-shoes-2,.formal-shoes-3{
+    margin: 20px auto;
 }
 }
