@@ -15,7 +15,7 @@ body{
 .full-container{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 40px 135px;
+    padding: 40px 100px;
 }
 .display-flex{
     display: flex;
@@ -106,7 +106,86 @@ nav{
     height: 100%;
 }
 
+/* women jacket styles */
 
+.causal-shoes-container,.formal-shoes-container{
+    height: 709px;
+}
+.causal-shoes-title h1,.formal-shoes-title h1{
+    color: rgb(54, 57, 88);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 31px;
+}
+.causal-shoes-card-container,.formal-shoes-card-container{
+    justify-content: space-between;
+}
+.causal-shoes-card,.formal-shoes-card{
+    width: 370px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    padding: 18px 18px 23px 18px;
+}
+.causal-shoes-card-image,.formal-shoes-card-image{
+    width: 334px;
+    height: 327px;
+    border-radius: 20px;
+    background: rgb(241, 241, 241);
+    margin-bottom: 17px;
+}
+.causal-shoes-1{
+    width: 293px;
+    height: 293px;
+    border: 2px dashed gray;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+.causal-shoes-2{
+    width: 253px;
+    height: 273px;
+    border: 2px dashed gray;
+    margin-top: 27px;
+    margin-left: 40px;
+}
+.causal-shoes-3{
+    width: 270px;
+    height: 273px;
+    border: 2px dashed gray;
+    margin-top: 26px;
+    margin-left: 32px;
+}
+
+.causal-shoes-card-title,.formal-shoes-card-title{
+    margin-bottom: 13px;
+    color: rgb(54, 57, 88);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+.causal-shoes-card-desc,.formal-shoes-card-desc{
+    color: rgb(62, 62, 62);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.causal-shoes-price,.formal-shoes-price{
+    margin-top: 13px;
+    justify-content: space-between;
+    align-items: center;
+}
+.causal-shoes-price>h3,.formal-shoes-price{
+    color: rgb(250, 190, 76);
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+}
 /* responsiveness starts here */
 
 @media screen and (max-width:576px){
