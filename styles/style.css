@@ -106,7 +106,7 @@ nav{
     height: 100%;
 }
 
-/* women jacket styles */
+/* causal and formal shoes styles */
 
 .causal-shoes-container,.formal-shoes-container{
     height: 709px;
@@ -137,7 +137,7 @@ nav{
     background: rgb(241, 241, 241);
     margin-bottom: 17px;
 }
-.causal-shoes-1{
+.causal-shoes-1, .formal-shoes-1,.formal-shoes-2,.formal-shoes-3{
     width: 293px;
     height: 293px;
     border: 2px dashed gray;
@@ -180,8 +180,8 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.causal-shoes-price>h3,.formal-shoes-price{
-    color: rgb(250, 190, 76);
+.causal-shoes-price>h3,.formal-shoes-price>h3{
+    color: #FA804C;
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 900;
