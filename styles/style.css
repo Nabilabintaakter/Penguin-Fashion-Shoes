@@ -337,4 +337,43 @@ nav{
     border:none;
     margin: 0 auto;
 }
+/* mobile footer section */
+.desktop-footer{
+    display: none;
 }
+.mobile-footer{
+    display: flex;
+}
+.footer-section-container{
+    height: auto;
+    gap: 48px;
+    flex-direction: column-reverse;
+}
+.footer-section-card-container{
+    flex-direction: column;
+    gap: 24px;
+}
+.card{
+    width: 100%;
+    height: auto;
+    padding: 25px 33px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.card-text-container{
+    text-align: center;
+}
+.card-image-container img{
+    width: 78px;
+    height: 82px;
+}
+.footer-section-image-container{
+    width: 100%;
+    height: auto;
+    border: 2px dashed gray;
+}
+}
+/* responsiveness ends here */
