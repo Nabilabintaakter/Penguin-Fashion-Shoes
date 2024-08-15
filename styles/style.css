@@ -233,6 +233,41 @@ nav{
     height: auto;
 }
 
+/* causal and formal shoes section */
 
-
+.causal-shoes-container,.formal-shoes-container{
+    padding: 50px 20px;
+    height: auto;
+}
+.causal-shoes-title h1,.formal-shoes-title h1{
+    text-align: center;
+}
+.causal-shoes-card-container,.formal-shoes-card-container{
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.causal-shoes-card,.formal-shoes-card{
+    width: 100%;
+    height: auto;
+}
+.causal-shoes-card-image-container,.formal-shoes-card-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.causal-shoes-card-image,.formal-shoes-card-image{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.causal-shoes-1, .causal-shoes-2,.causal-shoes-3{
+    width: 90%;
+    height: 90%;
+    border:none;
+    margin: 0 auto;
+}
 }
